@@ -1,3 +1,4 @@
+
 body {
     background-color: #fff;
     font-size: 14px;
@@ -6,18 +7,65 @@ body {
 }
 
 .nav-bar {
-    display: flex;
-    align-items: center;
-    padding: 6px;
+    padding: 0 0 15px 0;
     height: 3rem;
+    position: relative;
+    right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+}
+
+.apps-profile {
+    float: right;
+    position: fixed;
+    right: 20px;
+    top: 9px;
+}
+
+#apps {
+    position: relative;
+    right: 10px;
+    top: -3px;
+    opacity: 75%;
 }
 
 .about-link {
-    padding: 0 20px 20px 0;
+    padding: 5px;
+    margin-left: -10px;
 }
 
 .store-link {
     padding: 0 0 20px 10px;
+}
+
+
+.gmail-link {
+    padding: 0 20px 20px 0;
+    float: right;
+    font: 13px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    right:20px;
+    top: -1px;
+}
+
+.images-link {
+    padding: 0 70px 20px 10px;
+    float: right;
+    font: 13px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    right:30px;
+    top: -1px;
+}
+
+.profile-pic {
+    border-radius: 50%;
 }
 
 .align-logo {
@@ -25,6 +73,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .search-box {
@@ -65,4 +114,9 @@ body {
     word-wrap: break-word;
     outline: none;
     display: flex;
+}
+
+.parent {
+    position: relative;
+    top: 160px;
 }
