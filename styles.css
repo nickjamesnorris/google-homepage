@@ -127,7 +127,7 @@ li {
 .search {
     position: relative;
     background-color: #f8f9fa;
-    right: 20px;
+    right: 5px;
     border-radius: 4px;
     border: 1px solid #f8f9fa;
     cursor: pointer;
@@ -142,7 +142,7 @@ li {
 .im-feeling-lucky {
     position: relative;
     background-color: #f8f9fa;
-    right:20px;
+    right:7px;
     border-radius: 4px;
     border: 1px solid #f8f9fa;
     cursor: pointer;
@@ -152,4 +152,90 @@ li {
     margin: 15px 4px;
     padding: 10px 16px;
     top: 10px;
+}
+
+.bottom-border {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    margin-top: auto;
+    background-color: #f2f2f2;
+}
+
+
+.advertising-link {
+    color: #70757a;
+    padding: 0 70px 20px 10px;
+    font: 15px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    right: 30px;
+    bottom: 15px;
+}
+
+.business-link {
+    color: #70757a;
+    padding: 0 0px 0px 0px;
+    font: 15px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    right: 70px;
+    bottom: 15px;
+}
+
+.how-search-works-link {
+    color: #70757a;
+    padding: 0 0px 0px 0px;
+    font: 15px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    right: 40px;
+    bottom: 15px;
+}
+
+.leaf {
+    padding: 0 0px 0px 0px;
+    position: relative;
+    left: 145px;
+    bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-border span {
+    color: #70757a;
+    padding: 0 0px 0px 0px;
+    font: 15px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    left: 145px;
+    bottom: 15px;
+}
+
+.privacy-link {
+    color: #70757a;
+    padding: 0 0px 0px 0px;
+    font: 15px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    float: right;
+    right: 150px;
+    bottom: 7px;
+}
+
+.terms-link {
+    color: #70757a;
+    padding: 0 0px 0px 0px;
+    font: 15px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    float: right;
+    right: 45px;
+    bottom: 7px;
+}
+
+.settings-link {
+    color: #70757a;
+    padding: 0 0px 0px 0px;
+    font: 15px Roboto,RobotoDraft,Arial,sans-serif;
+    position: relative;
+    float: right;
+    left: 70px;
+    bottom: 7px;
 }
